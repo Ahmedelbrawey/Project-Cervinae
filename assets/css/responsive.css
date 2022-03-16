@@ -1,0 +1,171 @@
+@charset "utf-8";
+
+/*
+
+Theme Name: Cervinae - E-Commerce HTML5 Template
+Theme URI: http://www.cervinae.net/
+Author: Obada Qawwas
+Author URI: https://onyxdev.net
+Version: 1.0
+
+*/
+
+/* Bootstrap 4 Breakpoints :: min-width :: 576px / 768px / 992px / 1600px */
+
+/************************************************************
+
+    Mobiles landscape
+
+*************************************************************/
+@media only screen and (max-width : 700px) and (orientation : landscape) {
+
+}
+
+/************************************************************
+
+    Mobiles landscape
+
+*************************************************************/
+@media only screen and (min-width : 576px) {
+
+}
+
+
+/************************************************************
+
+    Small sizes
+
+*************************************************************/
+@media only screen and (min-width : 768px) {
+}
+
+
+/************************************************************
+
+    Medium sizes / Start mobile specific styles
+
+*************************************************************/
+@media only screen and (min-width : 992px) {
+
+/* Body content
+*************************************/
+.body-content {
+    width: 89%;
+    min-width: calc(100% - 180px);
+}
+
+/* Home hero
+*************************************/
+.home-hero .content .title {
+    font-size: 44px;
+}
+.onyx-zoom-slider .hero-slide .content .title > span span {
+    padding: 2% 0;
+}
+
+/* Main NAV
+*************************************/
+nav.main-nav {
+    margin: 1.5rem 0;
+}
+nav.main-nav > ul {
+    display: block;
+    flex-wrap: initial;
+}
+nav.main-nav > ul > li {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+html .responsive-nav-toggle-container {
+    display: none;
+}
+
+/*** Hover ***/
+nav.main-nav > ul > li.current-menu-item {
+    background-color: rgba(255, 255, 255, .03);
+}
+nav.main-nav > ul > li.current-menu-item > a {
+    color: rgba(255, 255, 255, 1);
+}
+nav.main-nav > ul > li.current-menu-item:not(:last-child) > a:after {
+    background-color: #e42830;
+}
+nav.main-nav > ul > li.current-menu-item > a[class^="icon-"]:before,
+nav.main-nav > ul > li.current-menu-item > a[class*=" icon-"]:before {
+    opacity: 1;
+}
+nav.main-nav > ul > li.current-menu-item:not(:last-child):before {
+    top: 82px;
+    border-color: #e42830 rgba(255,255,255,0);
+    visibility: visible;
+    opacity: 1;
+}
+.side-menu nav.main-nav,
+.side-menu .copyright {
+    display: inherit;
+}
+.mobile-menu-container {
+    display: none;
+}
+.side-menu {
+    background-color: #151515;
+    bottom: 0;
+    padding-bottom: 50px;
+}
+
+/* Menu elements animation */
+nav.main-nav > ul > li {
+    opacity: 1;
+    transform: translate3d(0, 0, 0)
+}
+
+/* Top misc (Buttons)
+*************************************/
+.body-content .top-misc {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.top-misc:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(10,10,10,0.95);
+    background: -moz-linear-gradient(top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(10,10,10,0.95)), color-stop(100%, rgba(10,10,10,0)));
+    background: -webkit-linear-gradient(top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0) 100%);
+    background: -o-linear-gradient(top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0) 100%);
+    background: -ms-linear-gradient(top, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0) 100%);
+    background: linear-gradient(to bottom, rgba(10,10,10,0.95) 0%, rgba(10,10,10,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a0a0a', endColorstr='#0a0a0a', GradientType=0 );
+}
+.top-misc .right [class^="icon-"]:before {
+    margin-left: 12px;
+}
+
+}
+
+
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+/************************************************************
+
+    X-Large sizes
+
+*************************************************************/
+@media only screen and (min-width : 1600px) {
+
+    /* Header
+    *************************************/
+
+}
