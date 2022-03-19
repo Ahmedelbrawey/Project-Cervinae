@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=1" />
+
+	<title>Cervinae - E-Commerce HTML5 Template</title>
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+	<link rel="manifest" href="assets/images/favicons/manifest.json">
+	<link rel="mask-icon" href="assets/images/favicons/safari-pinned-tab.svg" color="#e42830">
+	<link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+	<meta name="msapplication-config" content="assets/images/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#0f0f0f">
+
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+
+	<!-- Libraries/Plugins -->
+	<link id="bootstrap-css" href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link id="owl-carousel" href="assets/css/owl.carousel.min.css" rel="stylesheet">
+
+	<!-- Icons Library -->
+	<link id="cervinae-icons" href="assets/css/cervinae-icons.css" rel="stylesheet">
+	<link id="font-awesome-css" href="assets/css/font-awesome.min.css" rel="stylesheet">
+
+	<!-- Main CSS -->
+	<link id="onyx-css" href="style.css" rel="stylesheet">
+	<link id="onyx-responsive-css" href="assets/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<!-- Wrapper -->
+	<main class="wrapper">
+
+		<!-- Responsive menu toggle -->
+		<div class="responsive-nav-toggle-container">
+			<a href="#" class="responsive-nav-toggle"></a>
+		</div>
+		
+		<!-- Side menu -->
+		<aside class="side-menu">
+			
+			<div class="logo">
+				<a href="#">
+					<img src="assets/images/logo.png" alt="Cervinae - E-Commerce HTML5 Template | By Onyx Web Development">
+				</a>
+			</div>
+
+			<nav class="main-nav">
+				<ul>
+					<li class="current-menu-item menu-item-has-children">
+						<a href="#" class="icon-house">Home</a>
+						<ul class="sub-menu">
+							<li><a href="home-01.html">Home 01</a></li>
+							<li><a href="home-02.html">Home 02</a></li>
+							<li><a href="#">Home 03</a></li>
+							<li><a href="home-04.html">Home 04</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="#" class="icon-shop">Shop</a>
+						<ul class="sub-menu">
+							<li><a href="#">Shop 01</a></li>
+							<li><a href="#">Shop 02</a></li>
+							<li><a href="#">Shop 03</a></li>
+							<li><a href="#">Shop 04</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="#" class="icon-newspaper">Blog</a>
+						<ul class="sub-menu">
+							<li><a href="#">Blog 01</a></li>
+							<li><a href="#">Blog 02</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="#" class="icon-gallery">Gallery</a>
+						<ul class="sub-menu">
+							<li><a href="#">Gallery 01</a></li>
+							<li><a href="#">Gallery 02</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="#" class="icon-diamond">About Us</a>
+						<ul class="sub-menu">
+							<li><a href="#">About 01</a></li>
+							<li><a href="#">About 02</a></li>
+							<li><a href="#">Faqs</a></li>
+						</ul>
+					</li>
+					<li class="menu-item-has-children">
+						<a href="#" class="icon-map-pin">Our Stores</a>
+						<ul class="sub-menu">
+							<li><a href="#">Contact 01</a></li>
+							<li><a href="#">Contact 02</a></li>
+							<li><a href="#">Contact 03</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="copyright">&copy;<span class="current-year">2018</span> <a href="http://www.onyxdev.net/files/battlefield/wp/themes/cervinae/">onyxdev.net</a></div>
+
+		</aside>
+
+		<!-- Body content -->
+		<div class="body-content">
+
+			<!-- Top-misc -->
+			<div class="top-misc">
+				<div class="left">
+					<ul>
+						<li><a href="#">Login</a></li>
+						<li class="icon-user"><a href="#">Signup</a></li>
+						<li class="search-btn icon-search">
+							<form action="#" method="" class="top-search">
+								<input type="text" name="search" placeholder="">
+								<a href="#" type="submit" class="hidden">Go</a>
+							</form>
+						</li>
+					</ul>
+				</div>
+				<div class="right">
+					<ul>
+						<li class="icon-cart-filled"><a href="#">Cart <span>$0</span></a></li>
+						<li class="icon-share"><a href="#">Share <span>12K</span></a></li>
+						<li class="icon-mail-add-filled"><a href="#">Subscrribe</a></li>
+					</ul>
+					<!-- Socials -->
+					<ul class="socials">
+						<li><a href="#" class="fa fa-facebook"></a></li>
+						<li><a href="#" class="fa fa-instagram"></a></li>
+						<li><a href="#" class="fa fa-twitter"></a></li>
+						<li><a href="#" class="fa fa-behance"></a></li>
+					</ul>
+				</div>
+			</div>
+
+			<!-- Section: Home Slider -->
+			<!-- Options: show-discover-more if there is another section after this one (if there is no next section, the button won't show), we must disable the scroll on slider to show this button -->
+			<section class="home-hero show-discover-more">
+
+				<ul class="promo-btns">
+					<li><a href="#" class="btn-slide-in"><span data-hover="SALES PRODUCTS">SALES PRODUCTS</span></a></li>
+					<li><a href="#" class="red-bg btn-slide-in"><span data-hover="NEW ARRIVALS">NEW ARRIVALS</span></a></li>
+					<li><a href="#" class="btn-slide-in"><span data-hover="BEST SELLING">BEST SELLING</span></a></li>
+				</ul>
+
+				<!-- Scroll down -->
+				<a href="#" class="hero-discover-more">
+					<span class="text">Discover More</span>
+					<i class="fa fa-chevron-down"></i>
+				</a>
+				
+				<!-- Onyx hero zoome slider -->
+				<!-- Options: data-autorotate: 0/false for false or time in ms, data-pagination: true or anything, data-activate-scrolling: true or anything, data-activate-keypress: true or anything, data-nav: true or anything -->
+				<!-- Options: Navigate with scroll and arrows buttons -->
+				<div class="onyx-zoom-slider" data-autorotate="7000" data-pagination="true" data-nav="true" data-activate-scrolling="false" data-activate-keypress="true">
+
+					<div class="hero-slides" style="background-color: #151515;">
+
+						<!-- Onyx slide -->
+						<div class="hero-slide current">
+							<div class="bg-outer-wrap">
+								<div class="bg-outer">
+									<div class="bg-inner-wrap">
+										<div class="slide-bg" style="background-image:url(images/hero-bg-01.jpg)"></div>
+									</div>
+								</div>
+							</div>
+							<!-- Content -->
+							<div class="content">
+								<h4 class="offer">Sale 50%</h4>
+								<h2 class="title">Men‘s Accessories</h2>
+								<a href="#">VIEW COLLECTION</a>
+							</div>
+						</div>
+
+						<!-- Onyx slide -->
+						<div class="hero-slide next">
+							<div class="bg-outer-wrap">
+								<div class="bg-outer">
+									<div class="bg-inner-wrap">
+										<div class="slide-bg" style="background-image:url(images/hero-bg-02.jpg)"></div>
+									</div>
+								</div>
+							</div>
+							<!-- Content -->
+							<div class="content">
+								<h4 class="offer"></h4>
+								<h2 class="title">Men‘s Watches</h2>
+								<a href="#">VIEW COLLECTION</a>
+							</div>
+						</div>
+
+						<!-- Onyx slide -->
+						<div class="hero-slide next">
+							<div class="bg-outer-wrap">
+								<div class="bg-outer">
+									<div class="bg-inner-wrap">
+										<div class="slide-bg" style="background-image:url(images/hero-bg-03.jpg)"></div>
+									</div>
+								</div>
+							</div>
+							<!-- Content -->
+							<div class="content">
+								<h4 class="offer">Sale 80%</h4>
+								<h2 class="title">Women‘s Accessories</h2>
+								<a href="#">VIEW COLLECTION</a>
+							</div>
+						</div>
+
+						<!-- Onyx slide -->
+						<div class="hero-slide next">
+							<div class="bg-outer-wrap">
+								<div class="bg-outer">
+									<div class="bg-inner-wrap">
+										<div class="slide-bg" style="background-image:url(images/hero-bg-01.jpg)"></div>
+									</div>
+								</div>
+							</div>
+							<!-- Content -->
+							<div class="content">
+								<h4 class="offer">Sale 50%</h4>
+								<h2 class="title">Men‘s Accessories</h2>
+								<a href="#">VIEW COLLECTION</a>
+							</div>
+						</div>
+
+						<!-- Onyx slide -->
+						<div class="hero-slide next">
+							<div class="bg-outer-wrap">
+								<div class="bg-outer">
+									<div class="bg-inner-wrap">
+										<div class="slide-bg" style="background-image:url(images/hero-bg-02.jpg)"></div>
+									</div>
+								</div>
+							</div>
+							<!-- Content -->
+							<div class="content">
+								<h4 class="offer"></h4>
+								<h2 class="title">Men‘s Watches</h2>
+								<a href="#">VIEW COLLECTION</a>
+							</div>
+						</div>
+
+						<!-- Onyx slide -->
+						<div class="hero-slide next">
+							<div class="bg-outer-wrap">
+								<div class="bg-outer">
+									<div class="bg-inner-wrap">
+										<div class="slide-bg" style="background-image:url(images/hero-bg-03.jpg)"></div>
+									</div>
+								</div>
+							</div>
+							<!-- Content -->
+							<div class="content">
+								<h4 class="offer">Sale 80%</h4>
+								<h2 class="title">Women‘s Accessories</h2>
+								<a href="#">VIEW COLLECTION</a>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="hero-slider-nav">
+						<a class="prev" href="#"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+						<a class="next" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div>
+
+				</div>
+				<!--Onyx zoom slider-->
+
+			</section>
+
+			<!-- Section: About us -->
+			<section class="container-fluid">
+				<div class="row">
+
+					<div class="col-sm-8 col-12">
+
+						<!-- Text block / line before -->
+						<!-- Options: show the title on the left with a line before the text -->
+						<div class="text-block line-before more-padding">
+							<div class="content">
+								<h4 class="title">Who We Are</h4>
+								<p class="text">Fusce risus mi, auctor a mi sed, dictum pellentesque mauris. Quisque sed est nunc. Curabitur euismod leo id nisl egestas ultricies. In luctus lacus augue, et ullamcorper eros imperdiet non. Proin ipsum turpis, suscipit quis condimentum vel, consequat vel nulla. Vivamus velit mauris, sagittis sit amet accumsan id, tristique quis neque. Etiam porttitor, enim vel vehicula iaculis, ante velit porta metus, ac bibendum sem lacus sed turpis. Ut id nunc vel urna consequat porta. In a lectus turpis. Vivamus cursus lobortis sapien, sit amet aliquet dolor iaculis vitae. Nulla facilisi. Curabitur efficitur at ex ac tempus. Donec quis quam accumsan, pharetra ante quis, accumsan est.</p>
+							</div>
+						</div><!-- /.text-block -->
+
+					</div><!-- /.col -->
+
+					<div class="col-sm-4 col-12">
+
+						<!-- Logo block -->
+						<div class="logo-block dark">
+							<a href="javascript: void (0)">
+								<img src="assets/images/logo.png" alt="Cervinae - E-Commerce HTML5 Template | By Onyx Web Development" title="Cervinae - E-Commerce HTML5 Template | By Onyx Web Development">
+							</a>
+						</div><!-- /.logo-block -->
+
+					</div><!-- /.col -->
+
+				</div>
+			</section>
+            <!--Section: Images boxes-->
+            <section class="container-fluid">
+				<div class="row">
+
+					<div class="col-sm-4 col-12">
+
+						<!-- Image box -->
+						<a href="javascript: void (0)" class="image-box">
+							<div class="img-container abs-0">
+								<img src="images/backgrounds/01.jpg" alt="">
+							</div>
+							<div class="content">
+								<h4 class="title">Ut venenatis tellus tortor</h4>
+								<h5 class="subtitle">Pellentesque habitant</h5>
+								<p class="text">Aenean pellentesque rutrum elit vitae finibus. Maecenas venenatis nulla id lectus dictum malesuada. Duis quis lectus imperdiet, pretium ante eget, laoreet purus. Nunc rutrum mattis nibh, et euismod erat pharetra ac.</p>
+								<span class="link read-more with-icon">Read More <i class="icon-chevron-right"></i></span>
+							</div>
+						</a><!-- /.image-box -->
+
+					</div><!-- /.col -->
+
+					<div class="col-sm-4 col-12">
+
+						<!-- Image box -->
+						<a href="javascript: void (0)" class="image-box">
+							<div class="img-container abs-0">
+								<img src="images/backgrounds/02.jpg" alt="">
+							</div>
+							<div class="content">
+								<h4 class="title">Ut venenatis tellus tortor tristique senectus</h4>
+								<h5 class="subtitle">Pellentesque habitant</h5>
+								<p class="text">Aenean pellentesque rutrum elit vitae finibus. Maecenas venenatis nulla id lectus dictum malesuada. Duis quis lectus imperdiet, pretium ante eget, laoreet purus. Nunc rutrum mattis nibh, et euismod erat pharetra ac.</p>
+								<span class="link read-more with-icon">Read More <i class="icon-chevron-right"></i></span>
+							</div>
+						</a><!-- /.image-box -->
+
+					</div><!-- /.col -->
+
+					<div class="col-sm-4 col-12">
+
+						<!-- Image box -->
+						<a href="javascript: void (0)" class="image-box">
+							<div class="img-container abs-0">
+								<img src="images/backgrounds/03.jpg" alt="">
+							</div>
+							<div class="content">
+								<h4 class="title">Ut venenatis tellus tortor</h4>
+								<h5 class="subtitle">Pellentesque habitant morbi tristique senectus</h5>
+								<p class="text">Aenean pellentesque rutrum elit vitae finibus. Maecenas venenatis nulla id lectus dictum malesuada. Duis quis lectus imperdiet, pretium ante eget, laoreet purus. Nunc rutrum mattis nibh, et euismod erat pharetra ac.</p>
+								<span class="link read-more with-icon">Read More <i class="icon-chevron-right"></i></span>
+							</div>
+						</a><!-- /.image-box -->
+
+					</div><!-- /.col -->
+
+				</div>
+			</section>
+			<!-- Section: Deal of the Day -->
+			<section class="container-fluid grey-bg">
+				<div class="row">
+					<div class="col-12">
+
+						<!-- Options: Set the offer ending date here at data-end-date attribute -->
+						<div class="row deal-of-the-day" data-end-date="Dec 30, 2022 00:00:00">
+							<div class="col-lg-6 col-md-12 content">
+
+								<div class="rating onyx-rating-holder flex-child-50" data-rated="4">
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<!-- Options: Uncomment this if you want to enable rating or delete it to show rating result <input type="hidden" class="onyx-rating-hidden-input" name="onyx_rating" value=""> -->
+								</div>
+
+								<div class="like flex-child-50">
+									<a href="#" class="icon-heart-linear"></a>
+								</div>
+
+								<h6 class="sub-title flex-child-100">Deal of the day</h6>
+
+								<h4 class="title flex-child-100">
+									<a href="#">Lorem Ipsum Dolor</a>
+								</h4>
+
+								<div class="category flex-child-100">
+									<a href="#">Shop</a>
+									<span class="delimeter"> / </span>
+									<a href="#">Men's Accessories</a>
+									<span class="delimeter"> / </span>
+									<a href="#">Bracelets</a>
+								</div>
+
+								<p class="desc flex-child-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce in pulvinar metus. Cras sollicitudin, elit a imperdiet posuere, justo arcu imperdiet dui, at pulvinar purus sem sit amet neque. Pellentesque sit amet tellus erat. Cras sollicitudin felis et lectus mattis, eu consequat leo placerat. Sed nec augue ut ex bibendum ornare.</p>
+
+								<div class="price flex-child-100">
+									<span class="discount-price">$17.00</span>
+									<span class="regular-price">$14.00</span>
+								</div>
+
+								<div class="offer-counter flex-child-100">
+									<div class="days">
+										<span class="number">310</span>
+										<span class="text">Days</span>
+									</div>
+									<div class="hours">
+										<span class="number">10</span>
+										<span class="text">Hours</span>
+									</div>
+									<div class="minutes">
+										<span class="number">37</span>
+										<span class="text">Minutes</span>
+									</div>
+									<div class="seconds">
+										<span class="number">3</span>
+										<span class="text">Seconds</span>
+									</div>
+								</div>
+
+							</div>
+
+							<div class="col-lg-6 col-md-12 img-container overlay">
+								<a href="#" class="abs-0">
+									<img src="images/deal-of-the-day.jpg" alt="">
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<!-- Section: Newest Products -->
+			<section class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+
+						<div class="row selected-products-container newest-products">
+
+							<div class="content">
+								<a href="#" class="btn icon-arrow-right"></a>
+								<h4 class="title">Check our<br>newest products</h4>
+								<hr>
+								<p class="desc">Vivamus velit mauris, sagittis sit amet accumsan id, tristique quis neque. Etiam porttitor, enim vel vehicula iaculis, ante velit porta metus.</p>
+								<a href="#" class="btn with-icon">View All <i class="icon-chevron-right"></i></a>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product-container">
+								<a href="#" class="img-container abs-0">
+									<img src="images/products/thumbs/prod-01.jpg" alt="">
+									<!-- Options: You can put a second image for the product to show multiple images on mouse over -->
+									<span class="secondary-image">
+										<img src="images/products/thumbs/prod-03.jpg" alt="">
+									</span>
+								</a>
+								<div class="rating onyx-rating-holder flex-child-50" data-rated="1">
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+								</div>
+								<div class="like flex-child-50">
+									<a href="#" class="icon-heart-linear"></a>
+								</div>
+								<div class="content">
+									<h6 class="title"><a href="#">Lorem Ipsum Dolor</a></h6>
+									<div class="price">
+										<span class="discount-price">$17.00</span>
+										<span class="regular-price">$14.00</span>
+									</div>
+									<div class="hidden-btns">
+										<a href="#" class="cart-btn icon-cart-linear">Add to Cart</a>
+										<a href="#" class="quick-view-btn icon-search">Quick View</a>
+									</div>
+								</div>
+							</div>
+                            <!-- Product Item -->
+							<div class="product-container">
+								<!-- Options: Make product image slides to show more images like a gallery by adding these two classes 'multi-image owl-carousel' to the '.img-container' -->
+								<a href="#" class="img-container multi-image owl-carousel abs-0">
+									<img src="images/products/thumbs/prod-01.jpg" alt="">
+									<img src="images/products/thumbs/prod-04.jpg" alt="">
+								</a>
+								<div class="rating onyx-rating-holder flex-child-50" data-rated="0">
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+								</div>
+								<div class="like flex-child-50">
+									<a href="#" class="icon-heart-linear"></a>
+								</div>
+								<div class="content">
+									<h6 class="title"><a href="#">Lorem Ipsum Dolor</a></h6>
+									<div class="price">
+										<span class="regular-price">$27.00</span>
+									</div>
+									<div class="hidden-btns">
+										<a href="#" class="cart-btn icon-cart-linear">Add to Cart</a>
+										<a href="#" class="quick-view-btn icon-search">Quick View</a>
+									</div>
+
+									<div class="slider-pagination"></div>
+								</div>
+							</div>
+                            <!-- Product Item -->
+							<div class="product-container">
+								<!-- Options: Make product image slides to show more images like a gallery by adding these two classes 'multi-image owl-carousel' to the '.img-container' -->
+								<a href="#" class="img-container multi-image owl-carousel abs-0">
+									<img src="images/products/thumbs/prod-04.jpg" alt="">
+									<img src="images/products/thumbs/prod-06.jpg" alt="">
+								</a>
+								<div class="rating onyx-rating-holder flex-child-50" data-rated="0">
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+								</div>
+								<div class="like flex-child-50">
+									<a href="#" class="icon-heart-linear"></a>
+								</div>
+								<div class="content">
+									<h6 class="title"><a href="#">Lorem Ipsum Dolor</a></h6>
+									<div class="price">
+										<span class="regular-price">$27.00</span>
+									</div>
+									<div class="hidden-btns">
+										<a href="#" class="cart-btn icon-cart-linear">Add to Cart</a>
+										<a href="#" class="quick-view-btn icon-search">Quick View</a>
+									</div>
+
+									<div class="slider-pagination"></div>
+								</div>
+							</div>
+
+							<!-- Product Item -->
+							<div class="product-container">
+								<!-- Options: Make product image slides to show more images like a gallery by adding these two classes 'multi-image owl-carousel' to the '.img-container' -->
+								<a href="#" class="img-container multi-image owl-carousel abs-0">
+									<img src="images/products/thumbs/prod-03.jpg" alt="">
+									<img src="images/products/thumbs/prod-04.jpg" alt="">
+									<img src="images/products/thumbs/prod-01.jpg" alt="">
+								</a>
+								<div class="rating onyx-rating-holder flex-child-50" data-rated="0">
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+									<span class="onyx-star icon-star-linear"></span>
+								</div>
+								<div class="like flex-child-50">
+									<a href="#" class="icon-heart-linear"></a>
+								</div>
+								<div class="content">
+									<h6 class="title"><a href="#">Lorem Ipsum Dolor</a></h6>
+									<div class="price">
+										<span class="regular-price">$27.00</span>
+									</div>
+									<div class="hidden-btns">
+										<a href="#" class="cart-btn icon-cart-linear">Add to Cart</a>
+										<a href="#" class="quick-view-btn icon-search">Quick View</a>
+									</div>
+
+									<div class="slider-pagination"></div>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<!-- Section: Logos slider -->
+			<section class="container-fluid grey-bg">
+				<div class="row">
+					<div class="col-12">
+
+						<!-- Text block / centered -->
+						<!-- Options: Centered content -->
+						<div class="text-block centered">
+							<div class="content">
+								<h4 class="title">Payment Methods</h4>
+								<hr>
+								<p>Aliquam sed tristique lorem. Donec tempus enim tincidunt nunc convallis, vel sodales ex bibendum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+							</div>
+						</div><!-- /.text-block -->
+
+						<div class="logos-slider-container">
+							<div class="logos-slider owl-carousel owl-loaded owl-drag">
+								
+								
+								
+								
+								
+							<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1215px, 0px, 0px); transition: all 0.25s ease 0s; width: 2633px;"><div class="owl-item cloned" style="width: 202.5px;"><img src="images/payment-methods/payoneer.png" alt="Payoneer"></div><div class="owl-item cloned" style="width: 202.5px;"><img src="images/payment-methods/paypal.png" alt="PayPal"></div><div class="owl-item cloned" style="width: 202.5px;"><img src="images/payment-methods/payza.png" alt="Payza"></div><div class="owl-item cloned" style="width: 202.5px;"><img src="images/payment-methods/stripe.png" alt="Stripe"></div><div class="owl-item" style="width: 202.5px;"><img src="images/payment-methods/bitcoin.png" alt="Bitcoin"></div><div class="owl-item" style="width: 202.5px;"><img src="images/payment-methods/payoneer.png" alt="Payoneer"></div><div class="owl-item active" style="width: 202.5px;"><img src="images/payment-methods/paypal.png" alt="PayPal"></div><div class="owl-item active" style="width: 202.5px;"><img src="images/payment-methods/payza.png" alt="Payza"></div><div class="owl-item active" style="width: 202.5px;"><img src="images/payment-methods/stripe.png" alt="Stripe"></div><div class="owl-item cloned active" style="width: 202.5px;"><img src="images/payment-methods/bitcoin.png" alt="Bitcoin"></div><div class="owl-item cloned" style="width: 202.5px;"><img src="images/payment-methods/payoneer.png" alt="Payoneer"></div><div class="owl-item cloned" style="width: 202.5px;"><img src="images/payment-methods/paypal.png" alt="PayPal"></div><div class="owl-item cloned" style="width: 202.5px;"><img src="images/payment-methods/payza.png" alt="Payza"></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div></div>
+							<div class="slider-pagination"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<!-- Section: Instagram feed -->
+			<section class="container-fluid dark-bg">
+				<div class="row">
+					<div class="col-12">
+
+						<div class="row instagram-feed">
+
+							<div class="col-lg-2 col-md-6 col-sm-12 grid-sizer"></div>
+
+							<div class="col-lg-4 col-md-6 col-sm-12 grid-item rect-horizontal">
+								<div class="grid-item-inner">
+									<div class="abs-0 content space-before">
+										<a href="javascript: void (0)" class="btn icon-arrow-right"></a>
+										<h6 class="title">Instagram</h6>
+										<p class="desc">Vivamus velit mauris, sagittis sit amet accumsan id, tristique quis neque. Etiam porttitor.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-lg-2 col-md-3 col-sm-6 grid-item img-container overlay rect-vertical">
+								<a href="#" class="grid-item-inner">
+									<img src="images/instagram/big/05.jpg" class="abs-0" alt="">
+								</a>
+							</div>
+
+							<div class="col-lg-2 col-md-3 col-sm-6 grid-item img-container overlay square small">
+								<a href="#" class="grid-item-inner">
+									<img src="images/instagram/big/01.jpg" class="abs-0" alt="">
+								</a>
+							</div>
+
+							<div class="col-lg-4 col-md-3 col-sm-6 grid-item img-container overlay square big">
+								<a href="#" class="grid-item-inner">
+									<img src="images/instagram/big/03.jpg" class="abs-0" alt="">
+								</a>
+							</div>
+
+							<div class="col-lg-2 col-md-3 col-sm-6 grid-item img-container overlay square small">
+								<a href="#" class="grid-item-inner">
+									<img src="images/instagram/big/02.jpg" class="abs-0" alt="">
+								</a>
+							</div>
+
+							<div class="col-lg-2 col-md-3 col-sm-6 grid-item img-container overlay square small">
+								<a href="#" class="grid-item-inner">
+									<img src="images/instagram/big/03.jpg" class="abs-0" alt="">
+								</a>
+							</div>
+
+							<div class="col-lg-2 col-md-3 col-sm-6 grid-item img-container overlay square small">
+								<a href="#" class="grid-item-inner">
+									<img src="images/instagram/big/04.jpg" class="abs-0" alt="">
+								</a>
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<!-- Footer Style 2 -->
+			<!-- Option: Footer style-2 -->
+			<footer class="style-2 container-fluid">
+
+				<div class="row">
+					<div class="col-12">
+
+						<!-- Widget - Logo -->
+						<div class="widget logo">
+							<a href="#">
+								<img src="assets/images/logo.png" alt="Cervinae - E-Commerce HTML5 Template | By Onyx Web Development">
+							</a>
+						</div>
+
+						<!-- Widget - Socials -->
+						<div class="widget socials">
+							<!-- Socials -->
+							<ul class="socials">
+								<li><a href="#" class="fa fa-facebook"></a></li>
+								<li><a href="#" class="fa fa-instagram"></a></li>
+								<li><a href="#" class="fa fa-twitter"></a></li>
+								<li><a href="#" class="fa fa-behance"></a></li>
+							</ul><!-- /.socials -->
+						</div>
+
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+
+				<div class="row copyrights">
+					<div class="col-md-8 col-12 order-md-2">
+
+						<!-- Widget - About Us -->
+						<div class="widget menu">
+							<nav>
+								<ul>
+									<li><a href="#" title="Home">Home</a></li>
+									<li><a href="#" title="For Men">For Men</a></li>
+									<li><a href="#" title="For Women">For Women</a></li>
+									<li><a href="#" title="Shop">Shop</a></li>
+									<li><a href="#" title="About Us">About Us</a></li>
+									<li><a href="#" title="Contact Us">Contact Us</a></li>
+								</ul>
+							</nav>
+						</div>
+
+					</div><!-- /.col -->
+					<div class="col-md-4 col-12 order-md-1">
+
+						<!-- Widget - About Us -->
+						<div class="widget payment-logos">
+							<img src="images/payment-logos.png" alt="">
+						</div>
+
+					</div><!-- /.col -->
+				</div><!-- /.row -->
+
+			</footer>
+
+		</div>
+
+	</main>
+	<!-- /Wrapper -->
+
+	<!-- JQuery -->
+	<script src="assets/js/jquery-1.10.2.min.js"></script>
+
+	<!-- Owl Carousel -->
+	<script src="assets/js/owl.carousel.min.js"></script>
+
+	<!-- Masonry Grid -->
+	<script src="assets/js/masonry.pkgd.min.js"></script>
+
+	<!-- Main JS file -->
+	<script src="assets/js/scripts.js"></script>
+
+</body>
+</html>
