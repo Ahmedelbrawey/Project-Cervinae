@@ -2013,9 +2013,9 @@ div[class^="col"]:last-child > .icon-box {
 .deal-of-the-day .img-container:hover > a:before {
     opacity: 0;
 }
-
-
-
+.none-overlay::after{
+    visibility: none !important;
+}
 /************************************************************
 
     Selected Products Section
@@ -2772,6 +2772,7 @@ div[class^="col"]:last-child > .icon-box {
 }
 .select-img{
     transform: scale(1.5);
+    transition: 1s;
 }
 .select-img::after{
     opacity: 0 !important;
